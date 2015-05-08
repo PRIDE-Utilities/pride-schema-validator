@@ -1,0 +1,1 @@
+# pride-schema-validator
