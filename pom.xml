@@ -42,7 +42,6 @@
 
     <build>
         <plugins>
-            
             <!-- To copy the dependencies from the maven repository to the lib directory -->
             <plugin>
                <groupId>org.apache.maven.plugins</groupId>
@@ -103,7 +102,15 @@
             <artifactId>xsdlib</artifactId>
             <version>20050913</version>
         </dependency>
-
     </dependencies>
+
+    <!-- REPOS from parent POM -->
+    <!-- DISTRIBUTION MANAGEMENT from parent POM -->
+    <scm>
+        <connection>scm:git:https://github.com/PRIDE-Utilities/pride-schema-validator.git</connection>
+        <developerConnection>scm:git:https://github.com/PRIDE-Utilities/pride-schema-validator.git</developerConnection>
+        <url>https://github.com/PRIDE-Utilities/pride-schema-validator.git</url>
+        <tag>HEAD</tag>
+    </scm>
 
 </project>
