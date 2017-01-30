@@ -76,9 +76,8 @@
         </plugins>
     </build>
 
-    
-
     <dependencies>
+        <!-- TODO - do we need to update artifacts version numbers? -->
         <dependency>
             <groupId>msv</groupId>
             <artifactId>msv</artifactId>
@@ -102,14 +101,7 @@
 
     </dependencies>
 
-    <pluginRepositories>
-        <pluginRepository>
-            <id>java.net</id>
-            <name>java.net Maven Repository</name>
-            <url>https://maven-repository.dev.java.net/nonav/repository</url>
-            <layout>legacy</layout>
-        </pluginRepository>
-    </pluginRepositories>
+    
 
     <distributionManagement>
         <repository>
