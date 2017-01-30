@@ -42,15 +42,7 @@
 
     <build>
         <plugins>
-            <!-- To compile with JDK5.0 -->
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>1.5</source>
-                    <target>1.5</target>
-                </configuration>
-            </plugin>
+            
             <!-- To copy the dependencies from the maven repository to the lib directory -->
             <plugin>
                <groupId>org.apache.maven.plugins</groupId>
